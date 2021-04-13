@@ -9,6 +9,9 @@
 # Aliases
 	alias v="vim -p"
 	mkdir -p /tmp/log
+	alias ipl="curl -s ipinfo.io | jq -r '.ip'"
+	alias ip="ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1'"
+
 	
 	# This is currently causing problems (fails when you run it anywhere that isn't a git project's root directory)
 	# alias vs="v `git status --porcelain | sed -ne 's/^ M //p'`"
