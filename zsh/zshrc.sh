@@ -12,6 +12,10 @@
 	alias ipl="curl -s ipinfo.io | jq -r '.ip'"
 	alias ip="ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1'"
 	alias ll="ls -lah"
+	alias th="cd /Users/senders/Documents/vimpel/Theseus"
+	alias aliases="alias | sed 's/=.*//'"
+	alias functions="declare -f | grep '^[a-z].* ()' | sed 's/{$//'"
+	alias paths='echo -e ${PATH//:/\\n}'
 
 	
 	# This is currently causing problems (fails when you run it anywhere that isn't a git project's root directory)
