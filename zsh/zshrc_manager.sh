@@ -12,7 +12,7 @@ else
 fi
 
 echo "Checking for updates."
-({cd ~/dotfiles && git fetch -q} &> /dev/null)
+({cd ~/dotfiles && time_out 2 git fetch -q} &> /dev/null)
  
 if [ $({cd ~/dotfiles} &> /dev/null && git rev-list HEAD...origin/master | wc -l) = 0 ]
 then
