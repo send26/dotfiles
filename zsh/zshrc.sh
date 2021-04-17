@@ -53,6 +53,8 @@ autoload -U compinit
 
 plugins=(
 	docker
+	copybuffer
+	kubectl
 )
 
 for plugin ($plugins); do
