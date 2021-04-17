@@ -100,6 +100,7 @@ printf "source-file $HOME/dotfiles/tmux/tmux.conf" > ~/.tmux.conf
 ###create symlink for karabiner config
 rm -rf ~/.config
 ln -s ~/dotfiles/karabiner/.config ~/.config
+ln -s ~/Documents/vimpel ~/vimpel
 
 
 echo
