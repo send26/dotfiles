@@ -42,7 +42,7 @@
                         ]
                     },
                     {
-                        "description": "Swap left command and control in virtual machine/remote desktop",
+                        "description": "Swap left command and control in VM/Remote Desktop",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -1705,7 +1705,7 @@
                         ]
                     },
                     {
-                        "description": "Change command to controll to switch betwwen desktops",
+                        "description": "Change command to controll to switch between MAC Desktops",
                         "manipulators": [
                             {
                                 "conditions": [
