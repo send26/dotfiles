@@ -19,6 +19,7 @@
 	alias paths='echo -e ${PATH//:/\\n}'
 	alias sshfshd='sshfs hdp3:/home/senders ~/fuse/hdp3'
 	alias ufshd='diskutil unmount force ~/fuse/hdp3'
+	alias week='date +"Current week number is: %U"'
 
 	
 	# This is currently causing problems (fails when you run it anywhere that isn't a git project's root directory)
